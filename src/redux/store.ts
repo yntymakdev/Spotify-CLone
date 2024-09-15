@@ -7,3 +7,4 @@ export const store = configureStore({
   },
   middleware: (getMiddleWare) => getMiddleWare().concat(api.middleware),
 });
+// Пофиксил имя моего гита
